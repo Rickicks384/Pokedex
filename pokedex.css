@@ -1,0 +1,151 @@
+body {
+    background: url("./images/pokemon-bg.jpg") no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid rgb(28, 26, 26);
+    border-radius: 10px;
+
+    /* background-color: green; */
+    display: flex;
+    margin: 0 auto; 
+    margin-top: 60px;
+
+    background: url("./images/pokeball.jpg") no-repeat;
+    background-size: cover;
+}
+
+#pokemon-info {/* pokemon picture box */
+    width: 250px;
+    height: 500px;
+    /* background-color: darkred; */
+    text-align: center;
+} 
+
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    /* background-color: Black; */
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#pokemon-info img{
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(241, 239, 204);
+
+
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box {
+    padding:3px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.fire {
+    background-color: red;
+    color: white;
+}
+.normal {
+    background-color: rgb(247, 237, 209);
+    color: black;
+}
+.grass {
+    background-color: rgb(6, 120, 6);
+    color: white;
+}
+.water {
+    background-color: blue;
+    color: white;
+}
+.ice {
+    background-color: rgb(18, 198, 225);
+    color: black;
+}
+.electric {
+    background-color: gold;
+    color: black;
+}
+.fighting {
+    background-color: orangered;
+    color: white;
+}
+.flying {
+    background-color: rgb(135, 220, 235);
+    color: black;
+}
+.bug {
+    background-color: rgb(145, 212, 83);
+    color: white;
+}
+.ghost {
+    background-color: rgb(75, 39, 75);
+    color: white;
+}
+.rock {
+    background-color: #b79470;
+    color: white;
+}
+.ground {
+    background-color: rgb(97, 72, 39);
+    color: white;
+}
+.steel {
+    background-color: rgb(139, 136, 136);
+    color: black;
+}
+.psychic {
+    background-color: #EA7AFE;
+    color: white;
+}
+.fairy {
+    background-color: #ff69b4;
+    color: black;
+}
+.dragon {
+    background-color: rgb(114, 66, 216);
+    color: white;
+}
+.poison {
+    background-color: rgb(119, 0, 170);
+    color: white;
+}
+
+
+#pokemon-description {
+    width: 230px;
+    height: 100px;
+    background-color: rgb(138, 120, 144);
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
